@@ -1,13 +1,13 @@
-require_relative "lib/bullet_train/themes/light/version"
+require_relative "lib/bullet_train/themes/custom/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "bullet_train-themes-light"
-  spec.version = BulletTrain::Themes::Light::VERSION
-  spec.authors = ["Andrew Culver"]
-  spec.email = ["andrew.culver@gmail.com"]
-  spec.homepage = "https://github.com/bullet-train-co/bullet_train-themes-light"
-  spec.summary = "Bullet Train Themes: Light"
-  spec.description = "Bullet Train Themes: Light"
+  spec.name = "bullet_train-themes-custom"
+  spec.version = BulletTrain::Themes::Custom::VERSION
+  spec.authors = ["Gabriel Zayas"]
+  spec.email = ["g-zayas@hotmail.com"]
+  spec.homepage = "https://github.com/bullet-train-co/bullet_train-themes-custom"
+  spec.summary = "Bullet Train Themes: Custom"
+  spec.description = "Bullet Train Themes: Custom"
   spec.license = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
-    Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "tailwind.light.config.js", ".bt-link"]
+    Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "tailwind.custom.config.js", ".bt-link"]
   end
 
   spec.add_dependency "rails", ">= 7.0.0"

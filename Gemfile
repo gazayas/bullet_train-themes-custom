@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Specify your gem's dependencies in bullet_train-themes-light.gemspec.
+# Specify your gem's dependencies in bullet_train-themes-custom.gemspec.
 gemspec
 
 gem "sqlite3"

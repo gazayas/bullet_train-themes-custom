@@ -1,7 +1,7 @@
 module BulletTrain
   module Themes
-    module Light
-      VERSION = "1.0.27"
+    module Custom
+      VERSION = "1.0"
     end
   end
 end
